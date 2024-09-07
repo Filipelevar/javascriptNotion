@@ -1,0 +1,281 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#title {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.formatted-text {
+    font-size: 32px; 
+    font-weight: bold;
+    margin-top: 10px;   
+}
+
+#description {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+#edit-button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    color: #565d63;
+
+}
+
+#publish-button {
+    border: none;
+    color : #0a5fa8;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#breadcrumb {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #565d63;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #0a5fa8;
+    text-decoration: underline;
+}
+
+#breadcrumb-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.breadcrumb-icon{
+    width: 14px;
+    color: #565d63;
+    padding-right: 5px;
+}
+
+.button-arrowsRight-icon{
+    width: 14px;
+    color: #565d63;
+    padding-right: 5px;
+}
+
+
+
+#header {
+    align-items: center;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+}
+
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.input-container {
+    width: 100%; 
+    max-width: 800px; 
+    position: relative;
+
+}
+
+#content {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.dynamic-input {
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.dynamic-input:focus {
+    background-color: white;
+    border: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 350px;
+    height: 400px;
+    overflow-y: auto;
+    margin-top: 5px; 
+}
+
+
+.dropdown-header {
+    padding: 0px 10px 10px 10px;
+}
+
+.dropdown-header p {
+    color: #565d63;
+    font-size: 14px;
+}
+
+.dropdown-header span {
+    font-size: 18px;
+}
+
+
+.dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.dropdown-option-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
+}
+
+.dropdown-option-text {
+    display: flex;
+    flex-direction: column; 
+}
+
+.dropdown-option-text span {
+    font-weight: bold;
+}
+
+.dropdown-option-text p {
+    color: #565d63;
+    margin: 0;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+.visible {
+    display: block;
+}
+
+.h1 {
+    font-size: 32px; 
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+.box span {
+    background-color: rgb(132, 235, 163);
+    color: gren;
+    font-weight: bold;
+    padding: 8px;
+    align-items: center;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.container-clock {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container-clock p,
+  .container-clock img,
+  #span-styled {
+    margin: 0 5px;
+  }
+  
+  .divider {
+    height: 18px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+
+
+  #image-button {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-button img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
