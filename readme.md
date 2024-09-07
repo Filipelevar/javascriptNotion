@@ -25,6 +25,10 @@ This project demonstrates a dynamic input field system similar to block-based co
    - Pressing "Backspace" clears the current input or removes the input block if it's empty, following the block's behavior in editors like Notion.
 5. **Responsive Placeholder:**
    - The placeholder dynamically updates to reflect the selected format (e.g., "Heading 1"), ensuring users always know the active block type.
+  
+## Link to acess the project
+
+https://javascript-notion.vercel.app
 
 
 ## Images
