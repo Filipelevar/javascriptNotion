@@ -25,3 +25,11 @@ This project demonstrates a dynamic input field system similar to block-based co
    - Pressing "Backspace" clears the current input or removes the input block if it's empty, following the block's behavior in editors like Notion.
 5. **Responsive Placeholder:**
    - The placeholder dynamically updates to reflect the selected format (e.g., "Heading 1"), ensuring users always know the active block type.
+
+
+## Images
+
+![image](https://github.com/user-attachments/assets/c9f6edd8-66e2-4f6d-8cd6-7f047f67f449)
+
+![Imagem do WhatsApp de 2024-09-07 à(s) 03 49 19_406ae5e8](https://github.com/user-attachments/assets/9afa080a-2014-4b75-98b0-36eec34ff8b5)
+
