@@ -1,6 +1,6 @@
 # Front-End Developer Test Project
 
-This project demonstrates a dynamic input field system similar to block-based content editors (such as Notion), where users can type formatting commands to apply specific styles or insert formatted blocks.
+This project demonstrates a dynamic input field system similar to block-based content editor (like Notion), where users can type formatting commands to apply specific styles or insert formatted blocks.
 
 ## Key Functionalities
 
